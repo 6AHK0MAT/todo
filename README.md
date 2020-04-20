@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Приложение TODO
 
-## Available Scripts
+***Описание задания***
 
-In the project directory, you can run:
+*Write a ToDo web application without a server.
+ 
+The Application should provide the following functionality:
+* Add a task with title
+* Task list is sorted in reverse order by the task title
+* Edit a task
+* Mark a task as completed
+* Remove a task
+* Persist tasks between working sessions (it could be LocalStorage)
+Note: it is ok for a "customer" if you do something quickly and provide additional features, but there will be no penalties if you don't.
+ 
+Business context:
+* Goal is the time to market
+* Be ready to change something minor fast in the future
+ 
+Non-Functional Requirements:
+* Test task should be presented as a git repository with a history of changes. it could be located on GitHub (preferred) or folder with .git metadata.
+* Application should be written on JavaScript, frameworks are up to developer.
+* This task should take no more than 6-8 working hours(it is better to be less).*
 
-### `yarn start`
+------------
+*УСТУНОВКА И ЗАПУСК.*
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Для запуска данного проект вам будет необходим пакетный менеджер [Yarn](https://yarnpkg.com/) или [NPM](https://www.npmjs.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Поджробности по установке и настройке данного ПО можно прочесть по [этой ссылке для Yarn](https://yarnpkg.com/getting-started/install) и [по этой ссылке для NPM](https://nodejs.org/en/download/)
 
-### `yarn test`
+Для запуска проект его необходимо скачть с репозитория по [текущей ссылке](https://github.com/6AHK0MAT/todo)
+Или открыть новый проект в любой IDE с использованием функционала "Get from Versio Control". В стороке URL указав адрес репозитория.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://github.com/6AHK0MAT/todo
 
-### `yarn build`
+После вам нужно пройти в папку с проектом и установить все необходимы зависимости и бибилиотеки.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В записимости от того каким пакетным менеджером вы позьзуетесь это будет по разному.
+***yarn install*** - для Yarn
+***npm install*** - для NPM
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+После установки зависимостей, вы можете проверить все ли у вас получилось, в проекте должна появиться папка ***node_modules***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*РЕШЕНИЕ ЗАДАЧИ.*
 
-### `yarn eject`
+Данный Проект был создан при помощи [Create React App](https://github.com/facebook/create-react-app).<br>
+Дополнительно были использованы следующие библиотеки: <br>
+[prop-types](https://www.npmjs.com/package/prop-types)<br>
+Для сохранения состояния после перезагрузки или нового открытия приложения была испольщована библиотека
+[redux-localstorage-simple](https://www.npmjs.com/package/redux-localstorage-simple)<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Скрипты в проекте
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для запуска в директории проекта вы можете запустить:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `yarn start` или `npm run start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Приложение будет запущено в режиме разработки.<br />
+Откройте [http://localhost:3000](http://localhost:3000) для просмотра приложения в браузере.
 
-## Learn More
+Приложение будет перегужаться само если вы будете делать правки (Hot reload - "Горячая перезагрузка").<br />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Возможные ошибки вы можете отслеживать в консоли.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn build` или `npm run build`
 
-### Code Splitting
+Создание файлов для переноса на сервер в папке `build`.<br />
+Оптимизируется сборка для лучшей производительности.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+После сборки ваше приложение готово к переносу на сервер, подробности как это сделать можно прочесть [по этой ссылке](https://facebook.github.io/create-react-app/docs/deployment).
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

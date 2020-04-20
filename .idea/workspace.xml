@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ff7fda-26c2-4c79-94da-f8b7ef86160b" name="Default Changelist" comment="todo app">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/task.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/task.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-input/todo-input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-input/todo-input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-item/todo-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-item/todo-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-list/todo-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-list/todo-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title/title.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/todo/todo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/todo/todo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/footerFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,8 +83,17 @@
       <updated>1587370644695</updated>
       <workItem from="1587370645886" duration="2913000" />
       <workItem from="1587374063364" duration="13678000" />
-      <workItem from="1587392969598" duration="557000" />
+      <workItem from="1587392969598" duration="669000" />
+      <workItem from="1587393937188" duration="259000" />
     </task>
+    <task id="LOCAL-00001" summary="todo app">
+      <created>1587393606605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587393606605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,38 +109,38 @@
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="2317" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587370910901" />
-    <state x="2206" y="90" key="CommitChangelistDialog2" timestamp="1587393572338">
+    <state x="2206" y="90" key="CommitChangelistDialog2" timestamp="1587393605757">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state x="2206" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393572338" />
+    <state x="2206" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393605757" />
     <state x="2437" y="390" key="Github.ShareDialog" timestamp="1587393340519">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="2437" y="390" key="Github.ShareDialog/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393340519" />
-    <state width="1220" height="253" key="GridCell.Tab.0.bottom" timestamp="1587393398095">
+    <state width="1220" height="253" key="GridCell.Tab.0.bottom" timestamp="1587393639304">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1220" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393398095" />
-    <state width="1220" height="253" key="GridCell.Tab.0.center" timestamp="1587393398094">
+    <state width="1220" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393639304" />
+    <state width="1220" height="253" key="GridCell.Tab.0.center" timestamp="1587393639304">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1220" height="253" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393398094" />
-    <state width="1220" height="253" key="GridCell.Tab.0.left" timestamp="1587393398094">
+    <state width="1220" height="253" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393639304" />
+    <state width="1220" height="253" key="GridCell.Tab.0.left" timestamp="1587393639304">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1220" height="253" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393398094" />
-    <state width="1220" height="253" key="GridCell.Tab.0.right" timestamp="1587393398094">
+    <state width="1220" height="253" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393639304" />
+    <state width="1220" height="253" key="GridCell.Tab.0.right" timestamp="1587393639304">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1220" height="253" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393398094" />
+    <state width="1220" height="253" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393639304" />
     <state x="2071" y="137" key="SettingsEditor" timestamp="1587385643052">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="2071" y="137" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587385643052" />
-    <state x="2160" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587393521483">
+    <state x="2160" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587393614600">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state x="2160" y="228" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393521483" />
+    <state x="2160" y="228" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587393614600" />
     <state x="2223" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1587389306292">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
