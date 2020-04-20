@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ff7fda-26c2-4c79-94da-f8b7ef86160b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/task-item/todo-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task-item/todo-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/task-list/todo-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task-list/todo-list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/todo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1587370645886" duration="2913000" />
       <workItem from="1587374063364" duration="13678000" />
       <workItem from="1587392969598" duration="669000" />
-      <workItem from="1587393937188" duration="3377000" />
+      <workItem from="1587393937188" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="todo app">
       <created>1587393606605</created>
@@ -100,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587394205070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="todo app&#10;+ sort">
+      <created>1587399252573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587399252573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,17 +113,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="todo app" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo app" />
+    <MESSAGE value="todo app&#10;+ sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo app&#10;+ sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2317" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587370910901">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="2317" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587370910901" />
-    <state x="2206" y="90" key="CommitChangelistDialog2" timestamp="1587394204197">
+    <state x="2206" y="90" key="CommitChangelistDialog2" timestamp="1587399251796">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state x="2206" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587394204197" />
+    <state x="2206" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1587399251796" />
     <state x="2437" y="390" key="Github.ShareDialog" timestamp="1587393340519">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>

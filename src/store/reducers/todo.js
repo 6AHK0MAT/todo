@@ -12,7 +12,6 @@ if (!Todo || !Todo.tasks || !Todo.tasks.length) {
 const todo = (state = Todo.tasks, { id, text, isCompleted, type }) => {
   switch (type) {
     case NEW_TASK :
-      console.log(text)
       return [
         ...state, {
           id,
