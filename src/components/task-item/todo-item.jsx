@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import './todo-item.css';
 
+// let sortText = {text}.sort(function (a, b) {return a-b})
+
 const ToDoItem = ({ text, isCompleted, removeTask, id, completeTask }) => (
   <li className="todo-item">
     <i onClick={() => completeTask(id)} className={isCompleted ? 'mark far fa-check-square' : 'mark far fa-square'} />

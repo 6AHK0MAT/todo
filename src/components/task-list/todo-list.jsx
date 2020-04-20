@@ -7,7 +7,9 @@ import './todo-list.css';
 
 const ToDoList = ({ tasksList, removeTask, completeTask }) => (
   <ul className="todo-list">
-    {tasksList.map(({ id, text, isCompleted }) => (
+    {tasksList
+        .sort((a,b) =>a.text.localeCompare(b.text))
+        .map(({ id, text, isCompleted }) => (
       <ToDoItem completeTask={completeTask} removeTask={removeTask} id={id} key={id} text={text} isCompleted={isCompleted} />
     ))}
   </ul>
